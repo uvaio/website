@@ -1,38 +1,42 @@
-# create-svelte
+# UVA Information Organisation
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+> Web-based one-pager and visualisation for the Information Organisation course at the University of Amsterdam.
 
-## Creating a project
+![GitHub banner](/docs/banner.jpg)
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Description
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Informational webpage and visualiation to explore the dataset of the archaeological finds of the north / southline ([below the surface project](https://belowthesurface.amsterdam/en)) and organize the collection of content in new ways. Project structure built with [SvelteKit](https://kit.svelte.dev) and charts created with [Chart.js](https://www.chartjs.org).
 
-# create a new project in my-app
-npm create svelte@latest my-app
+## Install
+
+### Prerequisites
+
+Make sure you have [Node.js](https://nodejs.org/en) and NPM installed on your local machine.
+
+### Running
+
 ```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+# start a development server with hmr
 npm run dev
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
+# build a statis version of the site
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+See `package.json` for further run scripts.A live version of the application is hosted on Netlify which uses the Svelte auto adapter for deployment.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Project Structure
+
+```
+├── src                   # Svelte root folder
+│   ├── components        # Svelte components
+│   ├── datasets          # Raw .json files for data
+├── static                # Fonts, images etc.
+└── README.md
+
+```
+
+## License
+
+Unless stated otherwise, code is [MIT][LICENSE] © [Danny de Vries](https://github.com/dandevri) & docs and images are [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
