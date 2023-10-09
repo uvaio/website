@@ -1,0 +1,60 @@
+:root {
+  --primary-color: #fff;
+  --secondary-color: #000;
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  display: flex;
+  background: var(--secondary-color);
+  padding: 20px 24px;
+  font-weight: 700;
+  color: #e1e1e1;
+  width: max-content;
+  font-family: 'IBM Plex Mono', monospace;
+  transition: all 250ms ease;
+}
+
+.button:hover {
+  color: var(--primary-color);
+}
+
+.button:hover .down {
+  transform: translateY(0.2em);
+}
+
+.button svg {
+  margin-left: 1em;
+  transition: all 250ms ease;
+}
+
+h1 {
+  font-size: 52px;
+}
+
+section:nth-child(odd) {
+  height: 80vh;
+  background: #f3f1ed;
+}
+
+section:nth-child(even) {
+  height: 80vh;
+  background: #fff;
+}
+
+main section {
+  padding: 10vw 10vw;
+}
+
+main section p {
+  width: 40vw;
+  font-size: 18px;
+  line-height: 2;
+}
