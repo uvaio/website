@@ -1,4 +1,4 @@
-<a class="button fab" href="#"
+<a class="button fab" href="/subset"
 	>Create a data subset<svg
 		class="up"
 		width="24"
