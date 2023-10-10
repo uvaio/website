@@ -21,3 +21,24 @@
 	</p>
 	<Stats />
 </section>
+
+<style>
+	h1,
+	p,
+	.button {
+		opacity: 0;
+		animation: left 300ms ease 1s forwards;
+	}
+
+	@keyframes left {
+		0% {
+			transform: translateY(1em);
+			opacity: 0;
+		}
+
+		100% {
+			transform: translateY(0em);
+			opacity: 1;
+		}
+	}
+</style>

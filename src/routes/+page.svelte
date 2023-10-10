@@ -16,6 +16,7 @@
 	<link rel="icon" href="/images/logo.png" type="image/png" />
 	<link rel="stylesheet" href="remedy.css" />
 	<link rel="stylesheet" href="general.css" />
+	<script src="observer.js" defer></script>
 
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

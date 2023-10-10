@@ -45,4 +45,22 @@
 	header div {
 		position: relative;
 	}
+
+	header h1,
+	h2,
+	.button {
+		animation: left 300ms ease;
+	}
+
+	@keyframes left {
+		0% {
+			transform: translateX(-1em);
+			opacity: 0;
+		}
+
+		100% {
+			transform: translateX(0em);
+			opacity: 1;
+		}
+	}
 </style>

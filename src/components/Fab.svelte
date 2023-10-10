@@ -25,9 +25,23 @@
 		bottom: 2em;
 		right: 2em;
 		text-transform: uppercase;
+		animation: up 1s ease 1s forwards;
+		opacity: 0;
 	}
 
 	.fab:hover .up {
 		transform: translateY(-0.2em);
+	}
+
+	@keyframes up {
+		0% {
+			transform: translateY(1em);
+			opacity: 0;
+		}
+
+		100% {
+			transform: translateY(0em);
+			opacity: 1;
+		}
 	}
 </style>
