@@ -1,3 +1,7 @@
+<script>
+	import Stats from '../components/Stats.svelte';
+</script>
+
 <section>
 	<h1>Introduction</h1>
 	<p>
@@ -15,4 +19,5 @@
 		dolor expedita quibusdam, distinctio magnam velit dignissimos non suscipit maxime? Eius
 		inventore doloribus ratione maxime eligendi odio!
 	</p>
+	<Stats />
 </section>
