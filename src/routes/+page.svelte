@@ -7,7 +7,6 @@
 	import SectionTwo from '../components/SectionTwo.svelte';
 	import SectionThree from '../components/SectionThree.svelte';
 	import SectionFour from '../components/SectionFour.svelte';
-	import SectionFive from '../components/SectionFive.svelte';
 </script>
 
 <svelte:head>
@@ -34,7 +33,6 @@
 	<SectionTwo />
 	<SectionThree />
 	<SectionFour />
-	<SectionFive />
 </main>
 
 <Fab />
