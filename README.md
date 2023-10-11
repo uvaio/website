@@ -6,7 +6,7 @@
 
 ## Description
 
-Informational webpage and visualiation to explore the dataset of the archaeological finds of the north / southline ([below the surface project](https://belowthesurface.amsterdam/en)) and organize the collection of content in new ways. Project structure built with [SvelteKit](https://kit.svelte.dev) and charts created with [Chart.js](https://www.chartjs.org).
+Informational webpage and visualiation to explore the dataset of the archaeological finds of the north / southline ([below the surface project](https://belowthesurface.amsterdam/en)) and organize the collection of content in new ways. Project structure built with [SvelteKit](https://kit.svelte.dev) and charts created with [Chart.js](https://www.chartjs.org). Any content from Below the Surface belong to the original copyright holders. Any data used is publically avaiable and can be downloaded from the original project website.
 
 ## Install
 

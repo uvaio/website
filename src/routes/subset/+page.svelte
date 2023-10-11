@@ -3,6 +3,7 @@
 	import Back from '../../components/Back.svelte';
 	import Filter from '../../components/Filter.svelte';
 	import Grid from '../../components/Grid.svelte';
+	import Download from '../../components/Download.svelte';
 </script>
 
 <svelte:head>
@@ -25,3 +26,4 @@
 <Back />
 <Filter />
 <Grid />
+<Download />

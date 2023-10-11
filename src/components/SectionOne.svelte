@@ -5,19 +5,15 @@
 <section>
 	<h1>Introduction</h1>
 	<p>
-		Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate culpa expedita maxime,
-		cumque perferendis, libero ullam dolores, laudantium exercitationem sapiente neque ipsum tempore
-		perspiciatis. Natus quo numquam quaerat sed neque!
+		From 2003 to 2012 excavations took place for the creation of the <strong
+			>North/South metro line in Amsterdam</strong
+		>. At Damrak and Rokin, which are unlikely archaeological sites due to being in the city center,
+		archaeologists had a chance to physically access the riverbed.
 	</p>
 	<p>
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eos similique nostrum nesciunt
-		dolor expedita quibusdam, distinctio magnam velit dignissimos non suscipit maxime? Eius
-		inventore doloribus ratione maxime eligendi odio!
-	</p>
-	<p>
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eos similique nostrum nesciunt
-		dolor expedita quibusdam, distinctio magnam velit dignissimos non suscipit maxime? Eius
-		inventore doloribus ratione maxime eligendi odio!
+		During these excavations in the Amstel over <strong>700,000 objects</strong> were preserved which
+		resulted in a large archaeological collection. This website acts as an overview of the Below the
+		Surface dataset.
 	</p>
 	<Stats />
 </section>
@@ -40,5 +36,9 @@
 			transform: translateY(0em);
 			opacity: 1;
 		}
+	}
+
+	section {
+		height: 65vh;
 	}
 </style>
