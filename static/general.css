@@ -7,6 +7,10 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
 }
@@ -37,6 +41,10 @@ a {
 
 h1 {
   font-size: 52px;
+}
+
+section {
+  scroll-behavior: smooth;
 }
 
 section:nth-child(odd) {
@@ -77,4 +85,8 @@ main section p {
     opacity: 1;
     transform: translateY(0em);
   }
+}
+
+.open {
+  opacity: 1 !important;
 }

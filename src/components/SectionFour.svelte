@@ -4,7 +4,7 @@
 
 <section class="lazyload">
 	<img class="ornamentThree" src="/images/object-3.png" />
-	<h1>Material Usage</h1>
+	<h1 id="material">Material Usage</h1>
 	<p>
 		What type of <strong>material</strong> the object is made of with all subcategories but they can
 		be defined in four broad categories, <em>textiles, alloys, ceramics and food</em>.

@@ -1,7 +1,7 @@
 <header>
 	<h1>Above the Surface</h1>
 	<h2>THE ARCHAEOLOGICAL FINDS OF THE NORTH / SOUTHLINE</h2>
-	<a class="button" href="#"
+	<a class="button" href="#time"
 		>Explore the dataset<svg
 			class="down"
 			width="24"

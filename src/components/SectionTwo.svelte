@@ -4,7 +4,7 @@
 
 <section class="lazyload">
 	<img class="ornamentOne" src="/images/object-1.png" />
-	<h1>Time of Origin</h1>
+	<h1 id="time">Time of Origin</h1>
 	<p>
 		During the excavation items from many different time frames where found. This section displays
 		how many items where found at what <em>time period</em> roughly in centuries.

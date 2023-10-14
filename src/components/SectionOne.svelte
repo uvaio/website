@@ -3,7 +3,7 @@
 </script>
 
 <section>
-	<h1>Introduction</h1>
+	<h1 id="introduction">Introduction</h1>
 	<p>
 		From 2003 to 2012 excavations took place for the creation of the <strong
 			>North/South metro line in Amsterdam</strong
