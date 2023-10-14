@@ -10,7 +10,7 @@
 		use of the object. Bowls, plates and dishes that were found are categorized as
 		<em>Food Processing</em> and Axes, Hooks are categorized as <em>Craft & Industry</em>.
 	</p>
-	<Polar />s
+	<Polar />
 </section>
 
 <style>
