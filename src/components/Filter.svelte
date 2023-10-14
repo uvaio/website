@@ -13,13 +13,13 @@
 
 <div class="filter">
 	<div class="sentence">
-		<h3>Give me items of</h3>
+		<h3>Show me objects of</h3>
 		<select class="function">
-			<option selected="selected" value="2022">function</option>
-			<option value="2021">2021</option>
-			<option value="2020">2020</option>
-			<option value="2019">2019</option>
-			<option value="2018">2018</option>
+			<option selected="selected" value="functional">functional property</option>
+			<option value="communication">Communication & Exchange</option>
+			<option value="building">Building & Structures</option>
+			<option value="personal">Personal Artefacts and Clothing</option>
+			<option value="science">Science & Technology</option>
 		</select>
 		<h3>that were used by</h3>
 		<select class="culture">
@@ -39,19 +39,20 @@
 		</select>
 		<h3>in time period</h3>
 		<select class="time">
-			<option selected="selected" value="2022">time period</option>
-			<option value="2021">2021</option>
-			<option value="2020">2020</option>
-			<option value="2019">2019</option>
-			<option value="2018">2018</option>
+			<option selected="selected" value="time">time period</option>
+			<option value="1200-1400">1200-1400</option>
+			<option value="1400-1600">1400-1600</option>
+			<option value="1600-1700">1600-1700</option>
+			<option value="1700-1800">1700-1800</option>
+			<option value="1800-2000">1800-2000</option>
 		</select>
 		<h3>that are made from</h3>
 		<select class="material">
-			<option selected="selected" value="2022">material</option>
-			<option value="2021">2021</option>
-			<option value="2020">2020</option>
-			<option value="2019">2019</option>
-			<option value="2018">2018</option>
+			<option selected="selected" value="materials">material</option>
+			<option value="plastic">Plastic</option>
+			<option value="steel">Steel</option>
+			<option value="wood">Wood</option>
+			<option value="cotton">Cotton</option>
 		</select>
 	</div>
 </div>
