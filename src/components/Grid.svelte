@@ -100,13 +100,17 @@
 	.grid {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-		padding: 10vw;
+		padding: 3vw 10vw 10vw 10vw;
 	}
 
 	article {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+	}
+
+	article img {
+		transition: all 250ms ease;
 	}
 
 	article h4 {
@@ -116,5 +120,9 @@
 	article h5 {
 		font-weight: 400;
 		font-family: 'IBM Plex Mono', monospace;
+	}
+
+	article:hover img {
+		transform: scale(1.2);
 	}
 </style>

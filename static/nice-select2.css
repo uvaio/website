@@ -233,3 +233,13 @@
   outline: 0 !important;
   font-size: 14px
 }
+
+.nice-select {
+  margin: 2em !important;
+  border-radius: 0px !important;
+  color: black !important;
+}
+
+.nice-select .nice-select-dropdown {
+  color: black !important;
+}
