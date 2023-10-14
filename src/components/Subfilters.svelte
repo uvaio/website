@@ -56,64 +56,55 @@
 
 <form class="form">
 	<fieldset>
-		<legend>Country of Origin</legend>
+		<legend>Cultural Tribe</legend>
 
-		<input type="checkbox" id="kraken" name="monster" value="K" />
-		<label for="kraken">Kraken</label><br />
+		<input type="checkbox" id="silkroad" name="monster" value="K" />
+		<label for="silkroad">Silkroad</label><br />
 
-		<input type="checkbox" id="sasquatch" name="monster" value="S" />
-		<label for="sasquatch">Sasquatch</label><br />
+		<input type="checkbox" id="modern" name="monster" value="S" />
+		<label for="modern">Modern Times</label><br />
 
-		<input type="checkbox" id="mothman" name="monster" value="M" />
-		<label for="mothman">Mothman</label>
-	</fieldset>
-	<fieldset>
-		<legend>Part of Cultural Tribe</legend>
-
-		<input type="checkbox" id="kraken" name="monster" value="K" />
-		<label for="kraken">Kraken</label><br />
-
-		<input type="checkbox" id="sasquatch" name="monster" value="S" />
-		<label for="sasquatch">Sasquatch</label><br />
-
-		<input type="checkbox" id="mothman" name="monster" value="M" />
-		<label for="mothman">Mothman</label>
+		<input type="checkbox" id="golden" name="monster" value="M" />
+		<label for="golden">Golden Age</label>
 	</fieldset>
 	<fieldset>
 		<legend>Size and Dimensions</legend>
 
-		<input type="checkbox" id="kraken" name="monster" value="K" />
-		<label for="kraken">Kraken</label><br />
+		<input type="checkbox" id="10cm" name="monster" value="K" />
+		<label for="10cm">0cm - 10cm</label><br />
 
-		<input type="checkbox" id="sasquatch" name="monster" value="S" />
-		<label for="sasquatch">Sasquatch</label><br />
+		<input type="checkbox" id="20cm" name="monster" value="S" />
+		<label for="20cm">10cm - 20cm</label><br />
 
-		<input type="checkbox" id="mothman" name="monster" value="M" />
-		<label for="mothman">Mothman</label>
+		<input type="checkbox" id="30cm" name="monster" value="M" />
+		<label for="30cm">20cm - 30cm</label><br />
+
+		<input type="checkbox" id="50cm" name="monster" value="M" />
+		<label for="30cm">30cm - 50cm</label>
 	</fieldset>
 	<fieldset>
 		<legend>Material technique</legend>
 
-		<input type="checkbox" id="kraken" name="monster" value="K" />
-		<label for="kraken">Kraken</label><br />
+		<input type="checkbox" id="weaving" name="monster" value="K" />
+		<label for="weaving">Weaving</label><br />
 
-		<input type="checkbox" id="sasquatch" name="monster" value="S" />
-		<label for="sasquatch">Sasquatch</label><br />
+		<input type="checkbox" id="forging" name="monster" value="S" />
+		<label for="forging">Forging</label><br />
 
-		<input type="checkbox" id="mothman" name="monster" value="M" />
-		<label for="mothman">Mothman</label>
+		<input type="checkbox" id="sculpturing" name="monster" value="M" />
+		<label for="sculpturing">Sculpturing</label><br />
+
+		<input type="checkbox" id="electronics" name="monster" value="M" />
+		<label for="electronics">Electronics</label>
 	</fieldset>
 	<fieldset>
 		<legend>Location found</legend>
 
-		<input type="checkbox" id="kraken" name="monster" value="K" />
-		<label for="kraken">Kraken</label><br />
+		<input type="checkbox" id="damrak" name="monster" value="K" />
+		<label for="damrak">Damrak</label><br />
 
-		<input type="checkbox" id="sasquatch" name="monster" value="S" />
-		<label for="sasquatch">Sasquatch</label><br />
-
-		<input type="checkbox" id="mothman" name="monster" value="M" />
-		<label for="mothman">Mothman</label>
+		<input type="checkbox" id="rokin" name="monster" value="S" />
+		<label for="rokin">Rokin</label><br />
 	</fieldset>
 </form>
 
