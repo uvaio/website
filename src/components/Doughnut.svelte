@@ -2,6 +2,8 @@
 	import { onMount } from 'svelte';
 	import Chart from 'chart.js/auto';
 
+	import { materials } from '../data/materials';
+
 	onMount(async () => {
 		Chart.defaults.font.family = 'IBM Plex Mono';
 		Chart.defaults.backgroundColor = '#9BD0F5';
@@ -9,22 +11,32 @@
 
 		const ctx = document.getElementById('Pie');
 
+		let labels = [];
+		let amount = [];
+
+		for (let item of materials) {
+			labels.push(item.category);
+		}
+
+		for (let item of materials) {
+			amount.push(item.amount);
+		}
+
+		console.log(materials);
+		console.log(labels);
+		console.log(amount);
+
 		new Chart(ctx, {
 			type: 'doughnut',
 			data: {
-				labels: ['1700-1800', '1800', '1900', '2000'],
+				labels: labels,
 				datasets: [
 					{
-						label: '# of Votes',
-						data: [12, 19, 3, 5, 2, 3],
-						borderWidth: 2,
-						backgroundColor: '#656565'
+						data: amount
 					}
 				]
 			},
-			options: {
-				responsive: true
-			}
+			options: { maintainAspectRatio: true, responsive: true }
 		});
 	});
 </script>
