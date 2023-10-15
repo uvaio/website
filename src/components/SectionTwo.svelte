@@ -1,5 +1,5 @@
 <script>
-	import HorizontalBar from '../components/HorizontalBar.svelte';
+	import Bar from '../components/Bar.svelte';
 </script>
 
 <section class="lazyload">
@@ -9,7 +9,7 @@
 		During the excavation items from many different time frames where found. This section displays
 		how many items where found at what <em>time period</em> roughly in centuries.
 	</p>
-	<HorizontalBar />
+	<Bar />
 </section>
 
 <style>

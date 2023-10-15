@@ -1,7 +1,7 @@
 <ul class="stats">
-	<li><span class="label">Total objects:</span><span class="number">700,000</span></li>
-	<li><span class="label">Total categories:</span><span class="number">700,000</span></li>
-	<li><span class="label">Total weight:</span><span class="number">700,000</span></li>
+	<li><span class="label">Total objects:</span><span class="number">13,700</span></li>
+	<li><span class="label">Total categories:</span><span class="number">14</span></li>
+	<li><span class="label">Total materials:</span><span class="number">48</span></li>
 </ul>
 
 <style>
